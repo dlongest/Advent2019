@@ -41,6 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Day02\GridSearch.cs" />
+    <Compile Include="Day02\IntCode.cs" />
+    <Compile Include="Day02\IntCodeProgram.cs" />
     <Compile Include="LineReader.cs" />
     <Compile Include="Day01\FuelCalculators.cs" />
     <Compile Include="Day01\Module.cs" />

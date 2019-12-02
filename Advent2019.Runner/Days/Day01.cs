@@ -17,7 +17,7 @@ namespace Advent2019.Runner.Days
         }
     }
 
-    public class Day01B : Runner
+    public class Day02 : Runner
     {
 
         protected override void DoRun()
