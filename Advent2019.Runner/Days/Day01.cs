@@ -11,7 +11,7 @@ namespace Advent2019.Runner.Days
     {       
         protected override void DoRun()
         {
-            var input = LineReader.Read("problem01-input.txt", line => new Module(Double.Parse(line))).ToList();
+            var input = LineReader.Read("day01-input.txt", line => new Module(Double.Parse(line))).ToList();
 
             Console.WriteLine($"Total Fuel Needed = {Module.HowMuchFuel(input)}");
         }
@@ -22,7 +22,7 @@ namespace Advent2019.Runner.Days
 
         protected override void DoRun()
         {
-            var input = LineReader.Read("problem01-input.txt", line => Double.Parse(line)).ToList();
+            var input = LineReader.Read("day01-input.txt", line => Double.Parse(line)).ToList();
 
             var calculator = new RecursingFuelCalculator(new SimpleFuelCalculator());
 
