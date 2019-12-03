@@ -11,7 +11,7 @@ namespace Advent2019.Runner
     {
         static void Main(string[] args)
         {
-            new Day02B().Run();
+            new RunnerSelector().Newest().Run();
         }
     }
 }

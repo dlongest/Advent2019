@@ -8,7 +8,6 @@ namespace Advent2019.Day02
 {
     public class GridSearch
     {
-
         public SearchResult Search(IntCode[] input, SearchRange noun, SearchRange verb, int targetValue)
         {          
             foreach (var nounValue in noun.Range())
