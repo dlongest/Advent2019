@@ -46,6 +46,7 @@
     <Compile Include="Day02\IntCodeProgram.cs" />
     <Compile Include="Day03\Wire.cs" />
     <Compile Include="Day03\XY.cs" />
+    <Compile Include="Day04\PasswordValidator.cs" />
     <Compile Include="LineReader.cs" />
     <Compile Include="Day01\FuelCalculators.cs" />
     <Compile Include="Day01\Module.cs" />

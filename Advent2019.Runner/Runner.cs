@@ -10,12 +10,21 @@ namespace Advent2019.Runner
     {
         public void Run()
         {
+            PrintHeader();
             DoRun();
             PrintFooter();
         }
 
 
         protected abstract void DoRun();
+
+        protected virtual void PrintHeader()
+        {
+            var name = this.GetType().Name;
+
+            Console.WriteLine(name);
+            Console.WriteLine("------------------------------");
+        }
 
         protected virtual void PrintFooter()
         {
