@@ -47,10 +47,13 @@
     <Compile Include="Day03\Wire.cs" />
     <Compile Include="Day03\XY.cs" />
     <Compile Include="Day04\PasswordValidator.cs" />
+    <Compile Include="Day05\Instruction.cs" />
+    <Compile Include="Day06\OrbitMap.cs" />
     <Compile Include="LineReader.cs" />
     <Compile Include="Day01\FuelCalculators.cs" />
     <Compile Include="Day01\Module.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

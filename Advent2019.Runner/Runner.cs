@@ -28,6 +28,7 @@ namespace Advent2019.Runner
 
         protected virtual void PrintFooter()
         {
+            Console.WriteLine("\n\n");
             Console.WriteLine("Press enter to exit");
             Console.ReadLine();
         }
