@@ -43,7 +43,7 @@ namespace Advent2019.Day05
 
         public void Process()
         {
-            while (!IsRunning)
+            while (IsRunning)
             {
                 Instruction.From(this).Execute();
             }
@@ -118,7 +118,7 @@ namespace Advent2019.Day05
 
         public abstract void Execute();
 
-        public IntCodeComputer Host { get; private set; }
+        public IntCodeComputer Host { get; private set; }        
     }
 
 
@@ -212,9 +212,7 @@ namespace Advent2019.Day05
     }
 
     public class Parameter
-    {
-        private readonly IntCodeComputer host;
-      
+    {     
         public static Parameter InPositionMode(IntCodeComputer host, int address)
         {
             var registerValue = host.Registers[address];

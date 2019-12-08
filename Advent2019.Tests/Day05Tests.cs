@@ -41,7 +41,7 @@ namespace Advent2019.Tests
             Assert.Equal(expected, host.Registers);
         }
 
-      //  [Fact]
+      // [Fact]
         public void IntCodeComputer_Test()
         {
             var expected = new int[] { 4, 0, 0, 0, 99 };
